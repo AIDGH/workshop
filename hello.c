@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-printf("Hello, World!\n");
-return 0;
+  char c = '!';
+  printf("Hello, World%c\n", c);
+  return 0;
 }
 
